@@ -31,3 +31,17 @@ public:
 		cout << "sks : " << sks;
 	}
 };
+
+int main() {
+	Mahasiswa mhs1;
+	MataKuliah mk;
+	
+	cout << "Masukkan NIM : ";
+	cin >> mhs1.nim;
+	cout << "Masukkan nama : ";
+	cin >> mhs1.nama;
+	mhs1.cetak();
+
+	mk.input();
+	mk.tampil();
+}
