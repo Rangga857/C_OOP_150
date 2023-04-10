@@ -9,6 +9,12 @@ public: void cetak() {
 	cout << "NIM" << nim;
 	cout << "\nNama" << nama;
 	}
+public: void input() {
+	cout << "Masukkan NIM : ";
+	cin >> nim;
+	cout << "Masukkan nama : ";
+	cin >> nama;
+}
 };
 
 class MataKuliah {
