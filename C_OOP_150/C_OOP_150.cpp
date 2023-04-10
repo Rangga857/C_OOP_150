@@ -10,3 +10,5 @@ public: void cetak() {
 	cout << "\nNama" << nama;
 	}
 };
+
+class MataKuliah
