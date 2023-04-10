@@ -11,4 +11,9 @@ public: void cetak() {
 	}
 };
 
-class MataKuliah
+class MataKuliah {
+private:
+	string kode;
+	string namaM;
+	int sks;
+};
